@@ -1,0 +1,21 @@
+.content{
+  height: 542px;
+  width: 100%;
+  background-color: #F7F9FC;
+}
+#content_main{
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: red;
+  border: 1px solid black;
+  position: relative;
+}
+#list{
+  max-width: 940px;
+  height: 400px;
+  background-color: royalblue;
+  position: absolute;
+  top: -40px;
+  margin: 0 auto;
+}

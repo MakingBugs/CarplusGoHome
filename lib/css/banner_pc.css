@@ -1,0 +1,12 @@
+.banner{
+  height: 270px;
+  width: 100%;
+  background-color: #ffffff;
+}
+#banner_main{
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: red;
+  border: 1px solid black;
+}

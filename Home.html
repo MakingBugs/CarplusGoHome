@@ -4,8 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>格上出行-网址导航</title>
+  <link rel="stylesheet" media="screen and (min-width:990px)" href="./lib/css/banner_pc.css">
+  <link rel="stylesheet" media="screen and (max-width:990px)" href="./lib/css/banner_mobile.css">
+  <link rel="stylesheet" href="./lib/css/content.css">
 </head>
-<body>
-  123
+<body style="margin: 0 0;">
+  <div class="banner">
+    <div id="banner_main">
+      <div id="logo">
+
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="content_main">
+      <div id="list" class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">1</div>
+        <div class="flex-item">1</div>
+        <div class="flex-item">1</div>
+        <div class="flex-item">1</div>
+        <div class="flex-item">1</div>
+        <div class="flex-item">1</div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .flex-item {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 90px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+  }
+  </style>
 </body>
 </html>
