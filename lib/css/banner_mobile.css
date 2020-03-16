@@ -1,0 +1,67 @@
+@media screen and (max-width: 900px){
+  .banner{
+    display: none;
+  }
+  #qrcode{
+    display: none;
+  }
+}
+.banner_m{
+  height: 286px;
+  width: 100%;
+  max-width: 375px;
+  background-color: #ffffff;
+}
+#banner_m_main{
+  max-width: 375px;
+  height: 100%;
+  margin: 0 auto;
+}
+.content{
+  top: 286px;
+}
+#list{
+  max-width: 300px;
+  top: -24px;
+  left: 38px;
+  right: 37px;
+}
+/*图片定位*/
+#m_logo{
+  position: absolute;
+  left: 41px;
+  top: 61px;
+  z-index: 1;
+}
+#m_text{
+  z-index: 1;
+  position: absolute;
+  left: 40px;
+  top: 111px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 1000;
+}
+#m_location{
+  z-index: 2;
+  position: absolute;
+  left: 97px;
+  top: 155px;
+}
+/*****************/
+#m_square{
+  position: absolute;
+  left: 263px;
+  top: -50px;
+}
+#m_people{
+  z-index: 2;
+  position: absolute;
+  left: 34px;
+  top: 146px;
+}
+#m_bigcircle{
+  position: absolute;
+  left: -40px;
+  top: 0px;
+}
