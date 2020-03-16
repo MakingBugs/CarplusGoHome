@@ -1,12 +1,118 @@
+@media screen and (min-width: 900px){
+  .banner_m{
+    display: none;
+  }
+}
 .banner{
   height: 270px;
-  width: 100%;
+  min-width: 1440px;
   background-color: #ffffff;
 }
 #banner_main{
-  width: 1440px;
+  max-width: 1440px;
   height: 100%;
   margin: 0 auto;
-  background-color: red;
-  border: 1px solid black;
+  position: relative;
+}
+.content{
+  top: 270px;
+}
+#list{
+  width: 980px;
+  top: -40px;
+  left: 250px;
+  right: 210px;
+}
+.flex-item {
+  margin-right: 20px;
+}
+
+/*图片定位*/
+#pc_logo{
+  position: absolute;
+  top: 75px;
+  left: 255px;
+  z-index: 1;
+}
+#pc_text{
+  z-index: 1;
+  position: absolute;
+  left: 255px;
+  top: 135px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 1000;
+}
+#pc_ellipse{
+  width:25px;
+  height:25px;
+  background-color: #FFC800;
+  border-radius: 50%;
+  position: absolute;
+  top: 213px;
+  left: 298px;
+}
+#pc_airplane{
+  z-index: 1;
+  position: absolute;
+  top: 59px;
+  left: 472px;
+}
+#pc_line{
+  z-index: 1;
+  position: absolute;
+  top: 117px;
+  left: 540px;
+}
+#pc_people{
+  z-index: 2;
+  position: absolute;
+  top: 23px;
+  left: 625px;
+}
+#pc_people_u{
+  z-index: 1;
+  position: absolute;
+  left: 893px;
+  top: -60px;
+}
+#pc_location{
+  z-index: 1;
+  position: absolute;
+  left: 740px;
+  top: 39px;
+}
+/****************/
+#pc_square{
+  position: absolute;
+  left: 17px;
+  top: 147px;
+}
+#pc_pen{
+  position: absolute;
+  left: 161px;
+  top: 64px;
+}
+#pc_bigcircle{
+  width:500px;
+  height:500px;
+  background-color: #EEF9FF;
+  border-radius: 50%;
+  position: absolute;
+  left: 232px;
+  top: -321px;
+}
+#pc_smallcir{
+  width:160px;
+  height:80px;
+  background-color: #EEF9FF;
+  border-radius: 80px 80px 0 0;
+  position: absolute;
+  left: 1281px;
+  top: 192px;
+}
+#pc_cloud{
+  position: absolute;
+  left: 556px;
+  top: 13px;
 }
